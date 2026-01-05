@@ -5,24 +5,16 @@ import { getStorage } from 'firebase/storage';
 
 /**
  * Configuration Firebase pour RANKED
- * 
- * IMPORTANT: Remplacer ces valeurs par vos propres credentials Firebase
- * Utiliser les variables d'environnement pour plus de sécurité
+ * Configuration de production avec les clés du projet Firebase
  */
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY || (() => {
-    if (process.env.NODE_ENV === 'production') {
-      throw new Error('FIREBASE_API_KEY is required in production');
-    }
-    console.warn('⚠️ Firebase not configured - using placeholder values');
-    return 'demo-api-key';
-  })(),
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN || 'demo-project.firebaseapp.com',
-  projectId: process.env.FIREBASE_PROJECT_ID || 'demo-project-id',
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || 'demo-project.appspot.com',
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || '123456789',
-  appId: process.env.FIREBASE_APP_ID || 'demo-app-id',
-  measurementId: process.env.FIREBASE_MEASUREMENT_ID || 'G-XXXXXXXXXX',
+  apiKey: "AIzaSyA7rEQ4lnDesbmh448Cb4CVO46peyt8_BU",
+  authDomain: "ranked-app-e066c.firebaseapp.com",
+  projectId: "ranked-app-e066c",
+  storageBucket: "ranked-app-e066c.firebasestorage.app",
+  messagingSenderId: "602200538308",
+  appId: "1:602200538308:web:015b9a5646d0194917dd91",
+  measurementId: "G-87HGT9PZEQ"
 };
 
 /**
