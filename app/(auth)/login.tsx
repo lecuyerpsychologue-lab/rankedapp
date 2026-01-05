@@ -142,9 +142,15 @@ export default function LoginScreen() {
         </GlassCard>
 
         {/* Note légale */}
-        <Text className="text-text-muted text-xs text-center mt-8 px-8">
-          {t('auth.signIn')} implique l'acceptation des Conditions d'Utilisation et de la Politique de Confidentialité
-        </Text>
+        <View className="mt-8 px-8">
+          <Text className="text-text-muted text-xs text-center">
+            En vous connectant, vous acceptez nos{' '}
+          </Text>
+          <Text className="text-text-muted text-xs text-center mt-1">
+            Conditions d'Utilisation et Politique de Confidentialité
+          </Text>
+          {/* TODO: Ajouter des liens interactifs vers /legal/terms-of-service.md et /legal/privacy-policy.md */}
+        </View>
       </ScrollView>
     </View>
   );

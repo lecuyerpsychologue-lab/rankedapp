@@ -17,6 +17,11 @@ import * as AppleAuthentication from 'expo-apple-authentication';
  * Configuration Google Sign In
  */
 export const useGoogleAuth = () => {
+  // Vérifier que les Client IDs sont configurés
+  if (!process.env.GOOGLE_CLIENT_ID_IOS && !process.env.GOOGLE_CLIENT_ID_ANDROID) {
+    console.warn('⚠️ Google OAuth not configured - client IDs missing');
+  }
+
   const [request, response, promptAsync] = Google.useAuthRequest({
     iosClientId: process.env.GOOGLE_CLIENT_ID_IOS,
     androidClientId: process.env.GOOGLE_CLIENT_ID_ANDROID,

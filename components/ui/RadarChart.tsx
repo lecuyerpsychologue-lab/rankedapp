@@ -28,7 +28,6 @@ export const RadarChart: React.FC<RadarChartProps> = ({
   const center = size / 2;
   const radius = size / 2 - 40;
   const statKeys = ['humor', 'intelligence', 'reliability', 'charisma', 'creativity'] as const;
-  type ValidStatKey = typeof statKeys[number];
   
   // Calculer les points pour chaque stat
   const getPoint = (index: number, value: number) => {

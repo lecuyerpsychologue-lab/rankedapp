@@ -29,6 +29,13 @@ interface UserStats {
 }
 
 /**
+ * Calcule le pourcentage de votes reçus pour une stat
+ */
+const calculatePercentage = (votes: number, total: number): number => {
+  return total > 0 ? (votes / total) * 100 : 0;
+};
+
+/**
  * Calcule les scores pour tous les cercles
  */
 export const calculateWeeklyScores = functions.pubsub
@@ -90,11 +97,11 @@ export const calculateWeeklyScores = functions.pubsub
         for (const [userId, stats] of Object.entries(voteCount)) {
           // Calculer le pourcentage pour chaque stat
           const scores: UserStats = {
-            humor: totalVotes > 0 ? (stats.humor / totalVotes) * 100 : 0,
-            intelligence: totalVotes > 0 ? (stats.intelligence / totalVotes) * 100 : 0,
-            reliability: totalVotes > 0 ? (stats.reliability / totalVotes) * 100 : 0,
-            charisma: totalVotes > 0 ? (stats.charisma / totalVotes) * 100 : 0,
-            creativity: totalVotes > 0 ? (stats.creativity / totalVotes) * 100 : 0,
+            humor: calculatePercentage(stats.humor, totalVotes),
+            intelligence: calculatePercentage(stats.intelligence, totalVotes),
+            reliability: calculatePercentage(stats.reliability, totalVotes),
+            charisma: calculatePercentage(stats.charisma, totalVotes),
+            creativity: calculatePercentage(stats.creativity, totalVotes),
             global: 0,
           };
 
