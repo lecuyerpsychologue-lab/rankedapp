@@ -1,0 +1,130 @@
+{
+  "common": {
+    "appName": "RANKED",
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "save": "Salva",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "close": "Chiudi",
+    "next": "Avanti",
+    "back": "Indietro",
+    "done": "Fatto"
+  },
+  "auth": {
+    "signIn": "Accedi",
+    "signInWithGoogle": "Accedi con Google",
+    "signInWithApple": "Accedi con Apple",
+    "signInWithInstagram": "Accedi con Instagram",
+    "welcome": "Benvenuto su RANKED",
+    "welcomeSubtitle": "Vota i tratti di personalità dei tuoi amici",
+    "logout": "Disconnetti",
+    "logoutConfirm": "Sei sicuro di volerti disconnettere?"
+  },
+  "onboarding": {
+    "title1": "Crea Cerchie",
+    "subtitle1": "Riunisci i tuoi amici, compagni di classe o membri del team",
+    "title2": "Vota Settimanalmente",
+    "subtitle2": "Rispondi a 5 domande su ogni membro della cerchia",
+    "title3": "Scala le Classifiche",
+    "subtitle3": "Guarda evolvere le tue statistiche e competi con gli amici",
+    "getStarted": "Inizia"
+  },
+  "home": {
+    "title": "Home",
+    "globalScore": "Punteggio Globale",
+    "weeklyEvolution": "Evoluzione Settimanale",
+    "yourStats": "Le Tue Statistiche",
+    "noCircles": "Non ti sei ancora unito a nessuna cerchia",
+    "createFirstCircle": "Crea la tua prima cerchia"
+  },
+  "circles": {
+    "title": "Cerchie",
+    "myCircles": "Le Mie Cerchie",
+    "createCircle": "Crea Cerchia",
+    "joinCircle": "Unisciti a Cerchia",
+    "circleName": "Nome della Cerchia",
+    "circleEmoji": "Emoji della Cerchia",
+    "circleColor": "Colore della Cerchia",
+    "members": "{{count}} membri",
+    "minMembers": "Sono richiesti almeno 5 membri per iniziare a votare",
+    "maxMembers": "Massimo 50 membri per cerchia",
+    "leaveCircle": "Abbandona Cerchia",
+    "leaveConfirm": "Sei sicuro di voler abbandonare questa cerchia?",
+    "inviteMembers": "Invita Membri",
+    "shareLink": "Condividi link di invito"
+  },
+  "vote": {
+    "title": "Vota",
+    "weeklyVote": "Votazione Settimanale",
+    "timeRemaining": "Tempo rimanente",
+    "votingEnded": "Periodo di votazione terminato",
+    "nextVotingStarts": "La prossima votazione inizia domenica",
+    "question1": "Chi è il più divertente? 😂",
+    "question2": "Chi è il più intelligente? 🧠",
+    "question3": "Chi è il più affidabile? 💪",
+    "question4": "Chi ha più carisma? 🔥",
+    "question5": "Chi è il più creativo? 🎨",
+    "selectMember": "Seleziona un membro",
+    "cannotVoteForSelf": "Non puoi votare per te stesso",
+    "voteSubmitted": "Voto registrato!",
+    "allVotesCompleted": "Tutti i voti completati per questa settimana"
+  },
+  "leaderboard": {
+    "title": "Classifica",
+    "globalRanking": "Classifica Globale",
+    "statRanking": "Classifica {{stat}}",
+    "yourRank": "La Tua Posizione",
+    "topThree": "Top 3",
+    "viewProfile": "Visualizza Profilo"
+  },
+  "profile": {
+    "title": "Profilo",
+    "settings": "Impostazioni",
+    "editProfile": "Modifica Profilo",
+    "statistics": "Statistiche",
+    "history": "Cronologia",
+    "language": "Lingua",
+    "notifications": "Notifiche",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "support": "Supporto",
+    "version": "Versione"
+  },
+  "stats": {
+    "humor": "Umorismo",
+    "intelligence": "Intelligenza",
+    "reliability": "Affidabilità",
+    "charisma": "Carisma",
+    "creativity": "Creatività",
+    "global": "Globale"
+  },
+  "premium": {
+    "title": "Diventa Premium",
+    "free": "Gratuito",
+    "gold": "Oro",
+    "diamond": "Diamante",
+    "maxCircles": "{{count}} cerchie max",
+    "unlimitedCircles": "Cerchie illimitate",
+    "stats": "{{count}} statistiche",
+    "noAds": "Nessuna pubblicità",
+    "animatedFrame": "Cornice profilo animata",
+    "history": "Cronologia di {{weeks}} settimane",
+    "unlimitedHistory": "Cronologia illimitata",
+    "seeVoters": "Vedi chi ha votato",
+    "legendaryFrame": "Cornice leggendaria",
+    "perMonth": "{{price}}/mese",
+    "subscribe": "Iscriviti"
+  },
+  "errors": {
+    "networkError": "Errore di rete. Controlla la tua connessione.",
+    "authError": "Autenticazione fallita. Riprova.",
+    "notFound": "Non trovato",
+    "serverError": "Errore del server. Riprova più tardi.",
+    "invalidInput": "Input non valido",
+    "permissionDenied": "Permesso negato"
+  }
+}

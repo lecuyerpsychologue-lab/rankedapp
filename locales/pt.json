@@ -1,0 +1,130 @@
+{
+  "common": {
+    "appName": "RANKED",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar Novamente",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "close": "Fechar",
+    "next": "Próximo",
+    "back": "Voltar",
+    "done": "Concluído"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signInWithGoogle": "Entrar com Google",
+    "signInWithApple": "Entrar com Apple",
+    "signInWithInstagram": "Entrar com Instagram",
+    "welcome": "Bem-vindo ao RANKED",
+    "welcomeSubtitle": "Vote nos traços de personalidade dos seus amigos",
+    "logout": "Sair",
+    "logoutConfirm": "Tem certeza de que deseja sair?"
+  },
+  "onboarding": {
+    "title1": "Criar Círculos",
+    "subtitle1": "Reúna seus amigos, colegas de classe ou membros da equipe",
+    "title2": "Votar Semanalmente",
+    "subtitle2": "Responda 5 perguntas sobre cada membro do círculo",
+    "title3": "Subir nos Rankings",
+    "subtitle3": "Veja suas estatísticas evoluírem e compita com amigos",
+    "getStarted": "Começar"
+  },
+  "home": {
+    "title": "Início",
+    "globalScore": "Pontuação Global",
+    "weeklyEvolution": "Evolução Semanal",
+    "yourStats": "Suas Estatísticas",
+    "noCircles": "Você ainda não entrou em nenhum círculo",
+    "createFirstCircle": "Crie seu primeiro círculo"
+  },
+  "circles": {
+    "title": "Círculos",
+    "myCircles": "Meus Círculos",
+    "createCircle": "Criar Círculo",
+    "joinCircle": "Entrar em Círculo",
+    "circleName": "Nome do Círculo",
+    "circleEmoji": "Emoji do Círculo",
+    "circleColor": "Cor do Círculo",
+    "members": "{{count}} membros",
+    "minMembers": "Mínimo de 5 membros necessários para começar a votar",
+    "maxMembers": "Máximo de 50 membros por círculo",
+    "leaveCircle": "Sair do Círculo",
+    "leaveConfirm": "Tem certeza de que deseja sair deste círculo?",
+    "inviteMembers": "Convidar Membros",
+    "shareLink": "Compartilhar link de convite"
+  },
+  "vote": {
+    "title": "Votar",
+    "weeklyVote": "Votação Semanal",
+    "timeRemaining": "Tempo restante",
+    "votingEnded": "Período de votação encerrado",
+    "nextVotingStarts": "A próxima votação começa no domingo",
+    "question1": "Quem é o mais engraçado? 😂",
+    "question2": "Quem é o mais inteligente? 🧠",
+    "question3": "Quem é o mais confiável? 💪",
+    "question4": "Quem tem mais carisma? 🔥",
+    "question5": "Quem é o mais criativo? 🎨",
+    "selectMember": "Selecione um membro",
+    "cannotVoteForSelf": "Você não pode votar em si mesmo",
+    "voteSubmitted": "Voto registrado!",
+    "allVotesCompleted": "Todos os votos concluídos para esta semana"
+  },
+  "leaderboard": {
+    "title": "Classificação",
+    "globalRanking": "Classificação Global",
+    "statRanking": "Classificação de {{stat}}",
+    "yourRank": "Sua Posição",
+    "topThree": "Top 3",
+    "viewProfile": "Ver Perfil"
+  },
+  "profile": {
+    "title": "Perfil",
+    "settings": "Configurações",
+    "editProfile": "Editar Perfil",
+    "statistics": "Estatísticas",
+    "history": "Histórico",
+    "language": "Idioma",
+    "notifications": "Notificações",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "support": "Suporte",
+    "version": "Versão"
+  },
+  "stats": {
+    "humor": "Humor",
+    "intelligence": "Inteligência",
+    "reliability": "Confiabilidade",
+    "charisma": "Carisma",
+    "creativity": "Criatividade",
+    "global": "Global"
+  },
+  "premium": {
+    "title": "Seja Premium",
+    "free": "Gratuito",
+    "gold": "Ouro",
+    "diamond": "Diamante",
+    "maxCircles": "{{count}} círculos máx",
+    "unlimitedCircles": "Círculos ilimitados",
+    "stats": "{{count}} estatísticas",
+    "noAds": "Sem anúncios",
+    "animatedFrame": "Moldura animada para o perfil",
+    "history": "Histórico de {{weeks}} semanas",
+    "unlimitedHistory": "Histórico ilimitado",
+    "seeVoters": "Ver quem votou",
+    "legendaryFrame": "Moldura lendária",
+    "perMonth": "{{price}}/mês",
+    "subscribe": "Assinar"
+  },
+  "errors": {
+    "networkError": "Erro de rede. Verifique sua conexão.",
+    "authError": "Falha na autenticação. Tente novamente.",
+    "notFound": "Não encontrado",
+    "serverError": "Erro do servidor. Tente novamente mais tarde.",
+    "invalidInput": "Entrada inválida",
+    "permissionDenied": "Permissão negada"
+  }
+}

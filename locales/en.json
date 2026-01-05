@@ -1,0 +1,130 @@
+{
+  "common": {
+    "appName": "RANKED",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "done": "Done"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signInWithGoogle": "Sign in with Google",
+    "signInWithApple": "Sign in with Apple",
+    "signInWithInstagram": "Sign in with Instagram",
+    "welcome": "Welcome to RANKED",
+    "welcomeSubtitle": "Vote for your friends' personality traits",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to logout?"
+  },
+  "onboarding": {
+    "title1": "Create Circles",
+    "subtitle1": "Gather your friends, classmates, or teammates",
+    "title2": "Vote Weekly",
+    "subtitle2": "Answer 5 questions about each circle member",
+    "title3": "Climb the Ranks",
+    "subtitle3": "See your stats evolve and compete with friends",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "title": "Home",
+    "globalScore": "Global Score",
+    "weeklyEvolution": "Weekly Evolution",
+    "yourStats": "Your Stats",
+    "noCircles": "You haven't joined any circles yet",
+    "createFirstCircle": "Create your first circle"
+  },
+  "circles": {
+    "title": "Circles",
+    "myCircles": "My Circles",
+    "createCircle": "Create Circle",
+    "joinCircle": "Join Circle",
+    "circleName": "Circle Name",
+    "circleEmoji": "Circle Emoji",
+    "circleColor": "Circle Color",
+    "members": "{{count}} members",
+    "minMembers": "Minimum 5 members required to start voting",
+    "maxMembers": "Maximum 50 members per circle",
+    "leaveCircle": "Leave Circle",
+    "leaveConfirm": "Are you sure you want to leave this circle?",
+    "inviteMembers": "Invite Members",
+    "shareLink": "Share invitation link"
+  },
+  "vote": {
+    "title": "Vote",
+    "weeklyVote": "Weekly Vote",
+    "timeRemaining": "Time remaining",
+    "votingEnded": "Voting period ended",
+    "nextVotingStarts": "Next voting starts on Sunday",
+    "question1": "Who is the funniest? 😂",
+    "question2": "Who is the smartest? 🧠",
+    "question3": "Who is the most reliable? 💪",
+    "question4": "Who has the most charisma? 🔥",
+    "question5": "Who is the most creative? 🎨",
+    "selectMember": "Select a member",
+    "cannotVoteForSelf": "You cannot vote for yourself",
+    "voteSubmitted": "Vote submitted!",
+    "allVotesCompleted": "All votes completed for this week"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "globalRanking": "Global Ranking",
+    "statRanking": "{{stat}} Ranking",
+    "yourRank": "Your Rank",
+    "topThree": "Top 3",
+    "viewProfile": "View Profile"
+  },
+  "profile": {
+    "title": "Profile",
+    "settings": "Settings",
+    "editProfile": "Edit Profile",
+    "statistics": "Statistics",
+    "history": "History",
+    "language": "Language",
+    "notifications": "Notifications",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "version": "Version"
+  },
+  "stats": {
+    "humor": "Humor",
+    "intelligence": "Intelligence",
+    "reliability": "Reliability",
+    "charisma": "Charisma",
+    "creativity": "Creativity",
+    "global": "Global"
+  },
+  "premium": {
+    "title": "Go Premium",
+    "free": "Free",
+    "gold": "Gold",
+    "diamond": "Diamond",
+    "maxCircles": "{{count}} circles max",
+    "unlimitedCircles": "Unlimited circles",
+    "stats": "{{count}} stats",
+    "noAds": "No ads",
+    "animatedFrame": "Animated profile frame",
+    "history": "{{weeks}} weeks history",
+    "unlimitedHistory": "Unlimited history",
+    "seeVoters": "See who voted",
+    "legendaryFrame": "Legendary frame",
+    "perMonth": "{{price}}/month",
+    "subscribe": "Subscribe"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "authError": "Authentication failed. Please try again.",
+    "notFound": "Not found",
+    "serverError": "Server error. Please try again later.",
+    "invalidInput": "Invalid input",
+    "permissionDenied": "Permission denied"
+  }
+}
