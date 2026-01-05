@@ -6,7 +6,7 @@ import { ParticleBackground } from '../../components/ui/ParticleBackground';
 import { GradientButton } from '../../components/ui/GradientButton';
 import { GlassCard } from '../../components/ui/GlassCard';
 import { signInWithGoogle, signInWithApple, useGoogleAuth } from '../../lib/auth';
-import * as Haptics from '../../lib/haptics';
+import { lightImpact, notificationError } from '../../lib/haptics';
 
 /**
  * Écran de connexion (Login)
@@ -34,7 +34,7 @@ export default function LoginScreen() {
   const handleGoogleSignIn = async (idToken?: string) => {
     try {
       setIsLoading(true);
-      await Haptics.lightImpact();
+      await lightImpact();
       
       if (idToken) {
         await signInWithGoogle(idToken);
@@ -44,7 +44,7 @@ export default function LoginScreen() {
     } catch (error) {
       console.error('Erreur Google Sign In:', error);
       Alert.alert(t('errors.authError'), t('errors.networkError'));
-      await Haptics.notificationError();
+      await notificationError();
     } finally {
       setIsLoading(false);
     }
@@ -53,12 +53,12 @@ export default function LoginScreen() {
   const handleAppleSignIn = async () => {
     try {
       setIsLoading(true);
-      await Haptics.lightImpact();
+      await lightImpact();
       await signInWithApple();
     } catch (error) {
       console.error('Erreur Apple Sign In:', error);
       Alert.alert(t('errors.authError'), t('errors.networkError'));
-      await Haptics.notificationError();
+      await notificationError();
     } finally {
       setIsLoading(false);
     }
@@ -69,7 +69,12 @@ export default function LoginScreen() {
       <ParticleBackground />
       
       <ScrollView
-        contentContainerClassName="flex-1 justify-center items-center px-6"
+        contentContainerStyle={{ 
+          flexGrow: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          paddingHorizontal: 24
+        }}
         showsVerticalScrollIndicator={false}
       >
         {/* Logo et titre avec aura */}

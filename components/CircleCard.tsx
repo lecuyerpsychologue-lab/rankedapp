@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { AuraCard } from './ui/AuraCard';
 import { Circle } from '../lib/firestore';
-import * as Haptics from '../lib/haptics';
+import { lightImpact } from '../lib/haptics';
 
 /**
  * Composant CircleCard
@@ -21,7 +21,7 @@ export const CircleCard: React.FC<CircleCardProps> = ({
   className = '',
 }) => {
   const handlePress = async () => {
-    await Haptics.lightImpact();
+    await lightImpact();
     onPress?.();
   };
 

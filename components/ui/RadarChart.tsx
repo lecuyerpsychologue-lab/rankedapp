@@ -43,7 +43,7 @@ export const RadarChart: React.FC<RadarChartProps> = ({
   const gridLevels = [20, 40, 60, 80, 100];
 
   // Points pour le polygone des stats
-  const statPoints = statKeys.map((key, index) => getPoint(index, stats[key]));
+  const statPoints = statKeys.map((key, index) => getPoint(index, stats[key] || 0));
   const polygonPoints = statPoints.map(p => `${p.x},${p.y}`).join(' ');
 
   // Points pour les axes

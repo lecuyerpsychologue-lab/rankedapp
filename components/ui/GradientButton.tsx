@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, Text, TouchableOpacityProps } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import * as Haptics from '../lib/haptics';
+import { mediumImpact } from '../../lib/haptics';
 
 /**
  * Composant GradientButton
@@ -31,7 +31,7 @@ export const GradientButton: React.FC<GradientButtonProps> = ({
   ...props
 }) => {
   const handlePress = async (e: any) => {
-    await Haptics.mediumImpact();
+    await mediumImpact();
     onPress?.(e);
   };
 

@@ -25,7 +25,7 @@ export default function VoteScreen() {
       
       <ScrollView
         className="flex-1"
-        contentContainerClassName="px-4 py-6"
+        contentContainerStyle={{ paddingHorizontal: 16, paddingVertical: 24 }}
         showsVerticalScrollIndicator={false}
       >
         {/* En-tête */}

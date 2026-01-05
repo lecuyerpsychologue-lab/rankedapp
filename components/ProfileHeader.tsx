@@ -23,7 +23,7 @@ export const ProfileHeader: React.FC<ProfileHeaderProps> = ({
 }) => {
   return (
     <AuraCard
-      auraColor={statColors.gold}
+      auraColor={statColors.global}
       className={`p-6 ${className}`}
       pulseEnabled={true}
     >
@@ -33,7 +33,7 @@ export const ProfileHeader: React.FC<ProfileHeaderProps> = ({
           <View
             className="w-24 h-24 rounded-full overflow-hidden border-4 border-aura-gold"
             style={{
-              shadowColor: statColors.gold,
+              shadowColor: statColors.global,
               shadowOffset: { width: 0, height: 0 },
               shadowOpacity: 0.8,
               shadowRadius: 20,

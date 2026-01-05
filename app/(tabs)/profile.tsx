@@ -7,7 +7,7 @@ import { useAuthStore } from '../../stores/authStore';
 import { ParticleBackground } from '../../components/ui/ParticleBackground';
 import { GlassCard } from '../../components/ui/GlassCard';
 import { signOut } from '../../lib/auth';
-import * as Haptics from '../../lib/haptics';
+import { lightImpact, notificationWarning } from '../../lib/haptics';
 
 /**
  * Écran de Profil
@@ -32,7 +32,7 @@ export default function ProfileScreen() {
           text: t('auth.logout'),
           style: 'destructive',
           onPress: async () => {
-            await Haptics.notificationWarning();
+            await notificationWarning();
             await signOut();
             logout();
             router.replace('/(auth)/login');
@@ -67,7 +67,7 @@ export default function ProfileScreen() {
       
       <ScrollView
         className="flex-1"
-        contentContainerClassName="px-4 py-6"
+        contentContainerStyle={{ paddingHorizontal: 16, paddingVertical: 24 }}
         showsVerticalScrollIndicator={false}
       >
         {/* En-tête */}
@@ -100,7 +100,7 @@ export default function ProfileScreen() {
             <TouchableOpacity
               key={index}
               onPress={async () => {
-                await Haptics.lightImpact();
+                await lightImpact();
                 item.action();
               }}
               className={`flex-row items-center py-4 ${
