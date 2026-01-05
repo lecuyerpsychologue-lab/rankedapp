@@ -1,0 +1,130 @@
+{
+  "common": {
+    "appName": "RANKED",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "done": "Fertig"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signInWithGoogle": "Mit Google anmelden",
+    "signInWithApple": "Mit Apple anmelden",
+    "signInWithInstagram": "Mit Instagram anmelden",
+    "welcome": "Willkommen bei RANKED",
+    "welcomeSubtitle": "Stimme über die Persönlichkeitsmerkmale deiner Freunde ab",
+    "logout": "Abmelden",
+    "logoutConfirm": "Bist du sicher, dass du dich abmelden möchtest?"
+  },
+  "onboarding": {
+    "title1": "Kreise Erstellen",
+    "subtitle1": "Versammle deine Freunde, Klassenkameraden oder Teamkollegen",
+    "title2": "Wöchentlich Abstimmen",
+    "subtitle2": "Beantworte 5 Fragen zu jedem Kreismitglied",
+    "title3": "Ränge Erklimmen",
+    "subtitle3": "Sieh zu, wie sich deine Statistiken entwickeln und konkurriere mit Freunden",
+    "getStarted": "Loslegen"
+  },
+  "home": {
+    "title": "Startseite",
+    "globalScore": "Gesamtpunktzahl",
+    "weeklyEvolution": "Wöchentliche Entwicklung",
+    "yourStats": "Deine Statistiken",
+    "noCircles": "Du bist noch keinem Kreis beigetreten",
+    "createFirstCircle": "Erstelle deinen ersten Kreis"
+  },
+  "circles": {
+    "title": "Kreise",
+    "myCircles": "Meine Kreise",
+    "createCircle": "Kreis Erstellen",
+    "joinCircle": "Kreis Beitreten",
+    "circleName": "Kreisname",
+    "circleEmoji": "Kreis-Emoji",
+    "circleColor": "Kreisfarbe",
+    "members": "{{count}} Mitglieder",
+    "minMembers": "Mindestens 5 Mitglieder erforderlich, um mit dem Abstimmen zu beginnen",
+    "maxMembers": "Maximal 50 Mitglieder pro Kreis",
+    "leaveCircle": "Kreis Verlassen",
+    "leaveConfirm": "Bist du sicher, dass du diesen Kreis verlassen möchtest?",
+    "inviteMembers": "Mitglieder Einladen",
+    "shareLink": "Einladungslink teilen"
+  },
+  "vote": {
+    "title": "Abstimmen",
+    "weeklyVote": "Wöchentliche Abstimmung",
+    "timeRemaining": "Verbleibende Zeit",
+    "votingEnded": "Abstimmungsperiode beendet",
+    "nextVotingStarts": "Die nächste Abstimmung beginnt am Sonntag",
+    "question1": "Wer ist am lustigsten? 😂",
+    "question2": "Wer ist am intelligentesten? 🧠",
+    "question3": "Wer ist am zuverlässigsten? 💪",
+    "question4": "Wer hat das meiste Charisma? 🔥",
+    "question5": "Wer ist am kreativsten? 🎨",
+    "selectMember": "Wähle ein Mitglied",
+    "cannotVoteForSelf": "Du kannst nicht für dich selbst stimmen",
+    "voteSubmitted": "Stimme abgegeben!",
+    "allVotesCompleted": "Alle Stimmen für diese Woche abgegeben"
+  },
+  "leaderboard": {
+    "title": "Bestenliste",
+    "globalRanking": "Gesamtrangliste",
+    "statRanking": "{{stat}}-Rangliste",
+    "yourRank": "Dein Rang",
+    "topThree": "Top 3",
+    "viewProfile": "Profil Ansehen"
+  },
+  "profile": {
+    "title": "Profil",
+    "settings": "Einstellungen",
+    "editProfile": "Profil Bearbeiten",
+    "statistics": "Statistiken",
+    "history": "Verlauf",
+    "language": "Sprache",
+    "notifications": "Benachrichtigungen",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "version": "Version"
+  },
+  "stats": {
+    "humor": "Humor",
+    "intelligence": "Intelligenz",
+    "reliability": "Zuverlässigkeit",
+    "charisma": "Charisma",
+    "creativity": "Kreativität",
+    "global": "Gesamt"
+  },
+  "premium": {
+    "title": "Premium Werden",
+    "free": "Kostenlos",
+    "gold": "Gold",
+    "diamond": "Diamant",
+    "maxCircles": "Max. {{count}} Kreise",
+    "unlimitedCircles": "Unbegrenzte Kreise",
+    "stats": "{{count}} Statistiken",
+    "noAds": "Keine Werbung",
+    "animatedFrame": "Animierter Profilrahmen",
+    "history": "{{weeks}} Wochen Verlauf",
+    "unlimitedHistory": "Unbegrenzter Verlauf",
+    "seeVoters": "Sehen, wer abgestimmt hat",
+    "legendaryFrame": "Legendärer Rahmen",
+    "perMonth": "{{price}}/Monat",
+    "subscribe": "Abonnieren"
+  },
+  "errors": {
+    "networkError": "Netzwerkfehler. Überprüfe deine Verbindung.",
+    "authError": "Authentifizierung fehlgeschlagen. Versuche es erneut.",
+    "notFound": "Nicht gefunden",
+    "serverError": "Serverfehler. Versuche es später erneut.",
+    "invalidInput": "Ungültige Eingabe",
+    "permissionDenied": "Zugriff verweigert"
+  }
+}
