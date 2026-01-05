@@ -15,7 +15,7 @@ interface GradientButtonProps extends TouchableOpacityProps {
   fullWidth?: boolean;
 }
 
-const gradientColors = {
+const gradientColors: Record<string, readonly [string, string]> = {
   primary: ['#7B68EE', '#4ECDC4'],
   secondary: ['#FF6B6B', '#F093FB'],
   accent: ['#FFD700', '#FFE66D'],

@@ -84,11 +84,7 @@ export default function CirclesScreen() {
         ) : (
           <ScrollView
             showsVerticalScrollIndicator={false}
-            refreshing={refreshing}
-            onRefresh={() => {
-              setRefreshing(true);
-              loadCircles();
-            }}
+            contentContainerStyle={{ paddingBottom: 16 }}
           >
             <View className="space-y-4">
               {circles.map((circle) => (

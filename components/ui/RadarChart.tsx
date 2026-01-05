@@ -27,7 +27,8 @@ export const RadarChart: React.FC<RadarChartProps> = ({
 }) => {
   const center = size / 2;
   const radius = size / 2 - 40;
-  const statKeys = ['humor', 'intelligence', 'reliability', 'charisma', 'creativity'] as StatType[];
+  const statKeys = ['humor', 'intelligence', 'reliability', 'charisma', 'creativity'] as const;
+  type ValidStatKey = typeof statKeys[number];
   
   // Calculer les points pour chaque stat
   const getPoint = (index: number, value: number) => {
@@ -43,7 +44,7 @@ export const RadarChart: React.FC<RadarChartProps> = ({
   const gridLevels = [20, 40, 60, 80, 100];
 
   // Points pour le polygone des stats
-  const statPoints = statKeys.map((key, index) => getPoint(index, stats[key] || 0));
+  const statPoints = statKeys.map((key, index) => getPoint(index, stats[key as keyof typeof stats] || 0));
   const polygonPoints = statPoints.map(p => `${p.x},${p.y}`).join(' ');
 
   // Points pour les axes
@@ -112,7 +113,7 @@ export const RadarChart: React.FC<RadarChartProps> = ({
             cx={point.x}
             cy={point.y}
             r="4"
-            fill={statColors[statKeys[index]]}
+            fill={statColors[statKeys[index] as keyof typeof statColors]}
             stroke="#FFFFFF"
             strokeWidth="2"
           />
